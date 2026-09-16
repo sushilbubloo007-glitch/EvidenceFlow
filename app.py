@@ -8,7 +8,7 @@ from typing import Literal
 from pypdf import PdfReader
 
 # --- Configuration ---
-API_KEY = os.getenv("GEMINI_API_KEY", "AQ.Ab8RN6LnAMva9_kN7K3lsYrb-8Q15bRi3NJbJoTisauJYorIbQ") 
+API_KEY = os.getenv("GEMINI_API_KEY", "YOUR_KEY_HERE")
 client = genai.Client(api_key=API_KEY)
 
 class EvaluationResult(BaseModel):
